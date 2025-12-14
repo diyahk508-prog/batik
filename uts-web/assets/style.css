@@ -1,0 +1,100 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #68381a;
+    color: white;
+    padding: 20px 0;
+    text-align:center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.beranda,
+.produk,
+.kontak {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+table{
+    margin: 50px auto;
+}
+
+table img{
+    width: 90%;
+    border-collapse:collapse;
+    margin-top: 5px;
+    object-fit: cover;
+}
+
+th, td{
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align:center;
+}
+
+th{
+    background-color: #eee;
+}
+
+form{
+    text-align: left;
+    max-width: 680px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+
+form input[type="radio"]{
+    margin-right: 5px;
+    color: rgb(242, 5, 250);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+footer{
+    background-color: #532a10;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 480px){
+    nav ul{
+        display: block;
+        margin: 10px 0;
+    }
+    table,
+    th,
+    td{
+        font-size: 20px;
+    }
+}
